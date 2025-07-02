@@ -20,9 +20,9 @@ import { MenuIcon } from "lucide-react";
 
 export default function Navigation() {
   return (
-    <nav className="container mx-auto px-4 ">
+    <nav className="w-full md:container mx-auto  md:px-4 ">
       <NavigationMenu className="">
-        <NavigationMenuList className="flex justify-between items-center w-[99vw] lg:w-[90vw] mx-auto min-h-[10dvh] fixed bg-white blur-md z-10 ">
+        <NavigationMenuList className="flex justify-between items-center w-full lg:w-[90vw] mx-auto min-h-[10dvh] fixed bg-white blur-md z-10 ">
           <NavigationMenuItem>
             <Link href="/">
             <Image
@@ -47,7 +47,7 @@ export default function Navigation() {
             ))}
           </div>
           {/* Mobile Navigation  */}
-          <div className="block md:hidden">
+          <div className="block lg:hidden">
             <Sheet>
               <SheetTrigger>
                 <MenuIcon className="size-10" />

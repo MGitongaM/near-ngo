@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="min-h-screen container mx-auto flex flex-col  px-4">
         <div className="flex flex-wrap-reverse lg:flex-nowrap gap-x-8">
           {/* <div className="max-w-3xl space-y-6 flex flex-col justify-center"> */}
-          <div className="max-w-3xl space-y-6 pt-10 lg:pt-80">
+          <div className="max-w-3xl space-y-6 pt-10 lg:pt-60 xl:pt-80">
             <h1 className="text-4xl lg:text-6xl font-bold">
               Empowering Communities, Transforming Futures
             </h1>
@@ -27,7 +27,7 @@ export default function HeroSection() {
               Join Us in Building Stronger Communities
             </Button>
           </div>
-          <div className="bg-amber-300 rounded-b-md w-full">
+          <div className="bg-amber-300 rounded-b-md w-full lg:min-w-[42vw]">
             <Image
               src="/images/Near-ngo-home-hero-img no-bg.png"
               width={800}
