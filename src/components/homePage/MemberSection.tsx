@@ -15,8 +15,7 @@ import {
 export default function MemberSection() {
   return (
     <section id="membership" className="min-h-screen">
-      
-      <div  className=" py-16">
+      <div className=" py-16">
         <div className="c">
           <div className="max-w-3xl mx-auto px-4 space-y-4">
             <h2 className="text-3xl text-center font-semibold text-black">
@@ -72,7 +71,15 @@ export default function MemberSection() {
                 <CarouselItem key={testimonial.id} className=" lg:basis-1/2">
                   <div className="  flex flex-wrap md:flex-nowrap items-center gap-4 bg-slate-100 min-h-[24rem] rounded-md px-4 md:px-8 py-4">
                     <div className="c">
-                      <div className="size-48 rounded-full bg-amber-100"></div>
+                      <div className="size-48 rounded-md bg-amber-100">
+                        <Image
+                          src={testimonial.userImage}
+                          width={800}
+                          height={800}
+                          alt="NEAR member image"
+                          className="object-cover size-48 rounded-md"
+                        />
+                      </div>
                     </div>
                     <div className="w-full md:w-7/12 mx-auto space-y-4">
                       <p className="leading-8 text-base font">

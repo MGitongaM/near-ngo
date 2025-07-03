@@ -24,7 +24,7 @@ export const membershipHighlights = [
 export const membershipTestimonial = [
   {
     id: 1,
-    userImage: "",
+    userImage: "/images/hari.jpg",
     title:
       "Hari Darshan Shrestha, Executive Director, Centre of Resilient Development, Nepal",
     point:
@@ -32,7 +32,7 @@ export const membershipTestimonial = [
   },
   {
     id: 2,
-    userImage: "",
+    userImage: "/images/degan.jpg",
     title: "Degan Ali, Executive Director, Adeso, Somalia",
     point:
       "We do not have all the answers at NEAR. What we have is proximity and intimate understanding of our communities, along with local credibility and trust. We're creating an environment that enables innovation and great ideas.",
